@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pramod.easypermission.app-mergeDebugResources-61:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PRAMOD\\.gradle\\caches\\8.11.1\\transforms\\fd023410c2fa9f4c0ae9d3fceb862ba7\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

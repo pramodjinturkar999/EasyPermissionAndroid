@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pramod.easypermission.app-mergeDebugResources-61:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PRAMOD\\.gradle\\caches\\8.11.1\\transforms\\fd023410c2fa9f4c0ae9d3fceb862ba7\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

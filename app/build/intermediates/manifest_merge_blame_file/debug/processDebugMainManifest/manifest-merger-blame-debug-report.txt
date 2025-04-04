@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pramod.easypermission"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:7:9-33
+14    <uses-feature
+14-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:8:5-10:36
+15        android:name="android.hardware.telephony"
+15-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:9:9-50
+16        android:required="false" />
+16-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:10:9-33
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:14:5-65
+18-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:14:22-62
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:15:5-71
+19-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:15:22-68
+20    <uses-permission android:name="android.permission.READ_CONTACTS" />
+20-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:17:5-72
+20-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:17:22-69
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:18:5-69
+21-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:18:22-66
+22    <uses-permission android:name="android.permission.READ_CALENDAR" />
+22-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:19:5-72
+22-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:19:22-69
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:20:5-80
+23-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:20:22-77
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:21:5-81
+24-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:21:22-78
+25    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+25-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:22:5-82
+25-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:22:22-79
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:23:5-81
+26-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:23:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:24:5-79
+27-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:24:22-76
+28
+29    <permission
+29-->[androidx.core:core:1.15.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\4bc36f394d4d56e5f18dae3bb30a7ef6\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.pramod.easypermission.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.15.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\4bc36f394d4d56e5f18dae3bb30a7ef6\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.15.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\4bc36f394d4d56e5f18dae3bb30a7ef6\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.pramod.easypermission.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.15.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\4bc36f394d4d56e5f18dae3bb30a7ef6\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.15.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\4bc36f394d4d56e5f18dae3bb30a7ef6\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:27:5-49:19
+36        android:allowBackup="true"
+36-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:28:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.15.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\4bc36f394d4d56e5f18dae3bb30a7ef6\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:29:9-65
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:30:9-54
+42        android:icon="@mipmap/ic_launcher"
+42-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:31:9-43
+43        android:label="@string/app_name"
+43-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:32:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:33:9-54
+45        android:supportsRtl="true"
+45-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:34:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.AppCompat.Light" >
+47-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:35:9-53
+48        <activity
+48-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:38:9-48:20
+49            android:name="com.pramod.easypermission.MainActivity"
+49-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:39:13-41
+50            android:exported="true"
+50-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:40:13-36
+51            android:label="@string/app_name"
+51-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:41:13-45
+52            android:theme="@style/Theme.AppCompat.Light" >
+52-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:42:13-57
+53            <intent-filter>
+53-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:43:13-47:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:44:17-69
+54-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:44:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:46:17-77
+56-->D:\PERSONAL\EasyPermission\app\src\main\AndroidManifest.xml:46:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\506899174c934fc88dde8bd34abbd8f3\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+60            android:name="androidx.compose.ui.tooling.PreviewActivity"
+60-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\506899174c934fc88dde8bd34abbd8f3\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+61            android:exported="true" />
+61-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\506899174c934fc88dde8bd34abbd8f3\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+62        <activity
+62-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\c50ddd749b97e9076b8885373156c519\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+63            android:name="androidx.activity.ComponentActivity"
+63-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\c50ddd749b97e9076b8885373156c519\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+64            android:exported="true" />
+64-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\c50ddd749b97e9076b8885373156c519\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+68            android:authorities="com.pramod.easypermission.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\212035c52c01b41f97880d2facfc6d22\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\b18ad0e1f730cc70f3b76984ebfe96ce\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\b18ad0e1f730cc70f3b76984ebfe96ce\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\b18ad0e1f730cc70f3b76984ebfe96ce\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+78                android:value="androidx.startup" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+79        </provider>
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\PRAMOD\.gradle\caches\8.11.1\transforms\9222717b73a62d575f3ce20fddde30db\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>
